@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Catch A Bug</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch A Bug</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>What is your <span>favorite</span> bug?</h1>
+      <ul class="bugs-list">
+        <li>
+          <button class="choose-bug-btn">
+            <p>LadyBug</p>
+            <img
+              src="	https://pngimg.com/uploads/ladybug/ladybug_PNG3966.png"
+              alt="ladybug"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-bug-btn">
+            <p>Bee</p>
+            <img
+              src="https://pngimg.com/uploads/bee/bee_PNG74667.png"
+              alt="bee"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-bug-btn">
+            <p>Spider</p>
+            <img
+              src="https://pngimg.com/uploads/spider/spider_PNG20.png"
+              alt="spider"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-bug-btn">
+            <p>Beetel</p>
+            <img
+              src="	https://pngimg.com/uploads/bug/bug_PNG3975.png"
+              alt="beetel"
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: <span>00:00</span></h3>
+      <h3 id="score" class="score">Score: <span>0</span></h3>
+      <h5 id="message" class="message">
+        Are you annoyed yet? <br />
+        You are playing an impossible game!!
+      </h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
